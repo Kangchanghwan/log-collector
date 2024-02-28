@@ -1,0 +1,6 @@
+# Auto Configure
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.itech.log.logcollector.AopLogProcessor,\
+  com.itech.log.logcollector.aop.LogDataAspect,\
+  com.itech.log.logcollector.config.AopLogAutoConfiguration
+
